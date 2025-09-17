@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+jinja2
+qdrant-client
+httpx
+python-dotenv
+requests
+langchain
+langchain-community
+langchain-qdrant
+langchain-groq
+qdrant-client
+langchain-core
+python-dotenv
