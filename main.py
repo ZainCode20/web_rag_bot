@@ -160,3 +160,6 @@ async def reset_conversation(background_tasks: BackgroundTasks):
         raise HTTPException(503, "Bot not initialized")
     background_tasks.add_task(bot.reset_context)
     return StatusResponse(status="success", message="Conversation context reset")
+
+from mangum import Mangum
+handler = Mangum(app)
